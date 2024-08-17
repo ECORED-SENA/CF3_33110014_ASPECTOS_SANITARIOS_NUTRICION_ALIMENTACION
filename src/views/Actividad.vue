@@ -15,27 +15,39 @@ export default {
   components: { Actividad },
   data: () => ({
     cuestionario: {
-      tema: 'Manejo de los residuos sólidos en la producción avícola.',
+      tema:
+        'Prevención y control de enfermedades transmitidas por los alimentos.',
       titulo: 'Cuestionario',
       introduccion:
-        'Lea cada enunciado y luego seleccione la respuesta correcta según corresponda.',
+        'Identificar los conceptos clave relacionados con la higiene alimentaria, la manipulación segura de alimentos y las prácticas seguras para evitar la propagación de estas enfermedades.',
       barajarPreguntas: false,
       preguntas: [
         {
           id: 1,
-          texto:
-            'Cuáles son los tipos de explotación en los sistemas productivos avícolas:',
-          imagen: require('@/assets/componentes/pregunta_1.svg'),
+          texto: '¿Qué significa ETAS?',
+          imagen: require('@/assets/actividad/pregunta_1.svg'),
           barajarRespuestas: false,
           opciones: [
-            { id: 'a', texto: 'Explotación intensiva', esCorrecta: false },
-            { id: 'b', texto: 'Explotación semi intensiva', esCorrecta: false },
             {
-              id: 'c',
-              texto: 'Explotación extensiva o traspatio',
+              id: 'a',
+              texto: 'Enfermedades Transmitidas por Alimentos Seguros. ',
               esCorrecta: false,
             },
-            { id: 'd', texto: 'Todas la anteriores', esCorrecta: true },
+            {
+              id: 'b',
+              texto: 'Enfermedades Transmitidas por Agua y Sólidos. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Enfermedades Transmitidas por los Alimentos. ',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Enfermedades Transmitidas por Animales y Sólidos. ',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto: '¡Respuesta correcta! Felicidades.',
           mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
@@ -43,77 +55,281 @@ export default {
         {
           id: 2,
           texto:
-            'Se lanzan dos proyectiles desde el suelo con la misma velocidad inicial, pero uno se lanza horizontalmente y el otro se lanza formando un ángulo de 45 grados con la horizontal. Considerando la resistencia del aire despreciable, ¿cuáles de las siguientes afirmaciones son verdaderas?',
-          imagen: require('@/assets/componentes/pregunta_2.png'),
-          barajarRespuestas: true,
+            '¿Cuál de los siguientes microorganismos es considerado un patógeno en ETAS? ',
+          imagen: require('@/assets/actividad/pregunta_2.svg'),
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
-              texto: 'Ambos proyectiles alcanzarán la misma altura máxima.',
+              texto: '<em>Escherichia coli. </em>',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: '<em>Lactobacillus. </em>',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: '<em>Penicillium. </em>',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: '<em>Streptomyces. </em>',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
+        },
+        {
+          id: 3,
+          texto:
+            '¿Qué tipo de enfermedad es causada por bacterias, virus y parásitos en ETAS? ',
+          imagen: require('@/assets/actividad/pregunta_3.svg'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Tóxica.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Infecciosa. ',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Tóxico-infecciosa. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Higiénica. ',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
+        },
+        {
+          id: 4,
+          texto:
+            '¿Cuál de los siguientes es un factor importante en la prevención de ETAS? ',
+          imagen: require('@/assets/actividad/pregunta_4.svg'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Evitar el uso de utensilios. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Manipulación segura de alimentos. ',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'No lavar las manos antes de cocinar. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Almacenar los alimentos a temperatura ambiente. ',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
+        },
+        {
+          id: 5,
+          texto:
+            '¿Qué tipo de ETAS se produce por la ingestión de sustancias químicas o toxinas? ',
+          imagen: require('@/assets/actividad/pregunta_1.svg'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Infecciosa. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Tóxica. ',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Tóxico-infecciosa. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Higiénica. ',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
+        },
+        {
+          id: 6,
+          texto:
+            '¿Qué práctica es fundamental para prevenir la contaminación cruzada en la cocina? ',
+          imagen: require('@/assets/actividad/pregunta_2.svg'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Uso de utensilios compartidos. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Uso adecuado de pesticidas. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Lavar y desinfectar utensilios de cocina. ',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Cocinar alimentos a baja temperatura. ',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
+        },
+        {
+          id: 7,
+          texto:
+            '¿Qué tipo de ETAS es causada por infecciones que producen toxinas? ',
+          imagen: require('@/assets/actividad/pregunta_3.svg'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Infecciosa. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Tóxica. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Tóxico-infecciosa. ',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Higiénica. ',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
+        },
+        {
+          id: 8,
+          texto:
+            '¿Cuál de los siguientes es un microorganismo patógeno que causa ETAS? ',
+          imagen: require('@/assets/actividad/pregunta_4.svg'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: '<em>Giardia. </em>',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: '<em>Rhizobium. </em>',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: '<em>Aspergillus. </em>',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: '<em>Bacillus. </em>',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
+        },
+        {
+          id: 9,
+          texto: '¿Qué medida de higiene es esencial para prevenir ETAS? ',
+          imagen: require('@/assets/actividad/pregunta_1.svg'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Cocción a baja temperatura. ',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Uso de utensilios sucios. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Lavado de manos. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Almacenamiento a temperatura ambiente. ',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
+        },
+        {
+          id: 10,
+          texto:
+            '¿Qué medida de prevención es crucial para evitar la proliferación de microorganismos en los alimentos? ',
+          imagen: require('@/assets/actividad/pregunta_2.svg'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Almacenamiento a temperatura ambiente. ',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'El proyectil lanzado horizontalmente recorrerá una distancia horizontal mayor que el proyectil lanzado a 45 grados',
+                'Cocinar los alimentos inmediatamente después de comprarlos. ',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto:
-                'La velocidad horizontal del proyectil lanzado a 45 grados será mayor que la velocidad horizontal del proyectil lanzado horizontalmente.',
+              texto: 'Refrigeración adecuada de los alimentos.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto:
-                'La velocidad total del proyectil lanzado a 45 grados en el punto más alto de su trayectoria será la misma que la velocidad horizontal del proyectil lanzado horizontalmente en cualquier punto de su trayectoria.',
+              texto: 'Utilizar utensilios de cocina de madera. ',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto:
-            '¡Perfecto! Has seleccionado la respuesta correcta.',
-          mensaje_incorrecto: 'Esa no es la respuesta correcta. ¡Ánimo!',
-        },
-        {
-          id: 3,
-          texto: 'Texto de la tercera pregunta 3',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
-          opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: false },
-            { id: 'b', texto: 'Opción B', esCorrecta: false },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: true },
-          ],
-          mensaje_correcto: '¡Muy bien! Esa es la respuesta correcta.',
-          mensaje_incorrecto: 'Respuesta incorrecta. ¡Inténtalo de nuevo!',
-        },
-        {
-          id: 4,
-          texto: 'Texto de la cuarta pregunta 4',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
-          barajarRespuestas: true,
-          opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: true },
-            { id: 'b', texto: 'Opción B', esCorrecta: false },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: false },
-          ],
           mensaje_correcto: '¡Respuesta correcta! Felicidades.',
-          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente.',
-        },
-        {
-          id: 5,
-          texto: 'Texto de la quinta pregunta 5',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
-          opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: false },
-            { id: 'b', texto: 'Opción B', esCorrecta: true },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: false },
-          ],
-          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
-          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
         },
       ],
       mensaje_final_aprobado:
