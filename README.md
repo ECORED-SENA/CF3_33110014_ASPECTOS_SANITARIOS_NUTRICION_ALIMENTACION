@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/CF3_33110014_ASPECTOS_SANITARIOS_NUTRICION_ALIMENTACION/](https://ecored-sena.github.io/CF3_33110014_ASPECTOS_SANITARIOS_NUTRICION_ALIMENTACION/)
 
 #
 
