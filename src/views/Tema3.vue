@@ -119,7 +119,7 @@
     
     .row.mt-4
       .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
-        p Algunas enfermedades transmitidas por los alimentos pueden generar una combinación de infecciones e intoxicaciones.Usualmente están relacionadas con enfermedades transmitidas por alimentos cuando las bacterias patógenas o virus entran en el organismo de una persona y tienen la capacidad de secretar toxinas, que terminan siendo las responsables de que se contraigan enfermedades o intoxicaciones. 
+        p Algunas enfermedades transmitidas por los alimentos pueden generar una combinación de infecciones e intoxicaciones. Usualmente están relacionadas con enfermedades transmitidas por alimentos cuando las bacterias patógenas o virus entran en el organismo de una persona y tienen la capacidad de secretar toxinas, que terminan siendo las responsables de que se contraigan enfermedades o intoxicaciones. 
         p.fw-bold Hay tres tipos de toxinas que actúan en las enfermedades de tipo tóxico-infeccioso: 
       .col-lg-5(data-aos="fade-left")
         figure.m-auto.col-9.col-md-7.col-lg-12

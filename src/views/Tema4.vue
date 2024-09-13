@@ -16,7 +16,7 @@
           .row.col-lg-11.m-auto
             .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
               h5 Shigelosis 
-              p.mt-4 La shigelosis es una enfermedad infecciosa causada por la bacteria Shigella. Se transmite a través de la materia fecal, y su presencia en los alimentos es señal de contaminación por heces. Los síntomas incluyen dolores abdominales, fiebre repentina, sangre en las heces, cólicos, dolores rectales, vómito, náuseas y diarrea. Esta bacteria también es responsable de la disentería bacilar. 
+              p.mt-4 La Shigelosis es una enfermedad infecciosa causada por la bacteria Shigella. Se transmite a través de la materia fecal, y su presencia en los alimentos es señal de contaminación por heces. Los síntomas incluyen dolores abdominales, fiebre repentina, sangre en las heces, cólicos, dolores rectales, vómito, náuseas y diarrea. Esta bacteria también es responsable de la disentería bacilar. 
             .col-lg-5(style="place-self:center;")
               figure.m-auto.col-8.col-md-6.col-lg-12
                 img(src='@/assets/curso/tema4/1.png')
@@ -30,14 +30,14 @@
           .row.col-lg-11.m-auto
             .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
               h5  Yersiniosis 
-              p.mt-4 La yersiniosis es una enfermedad infecciosa ocasionada por la bacteria Yersinia Enterocolitica. Se adquiere al ingerir alimentos contaminados, especialmente carne de cerdo mal cocida o cruda, o vegetales contaminados con estiércol. Los síntomas incluyen fiebre, dolor estomacal y diarrea con sangre. El periodo de incubación es de 4 a 7 días. 
+              p.mt-4 La Yersiniosis es una enfermedad infecciosa ocasionada por la bacteria Yersinia Enterocolitica. Se adquiere al ingerir alimentos contaminados, especialmente carne de cerdo mal cocida o cruda, o vegetales contaminados con estiércol. Los síntomas incluyen fiebre, dolor estomacal y diarrea con sangre. El periodo de incubación es de 4 a 7 días. 
             .col-lg-5(style="place-self:center;")
               figure.m-auto.col-8.col-md-6.col-lg-12
                 img(src='@/assets/curso/tema4/3.png')
           .row.col-lg-11.m-auto
             .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
               h5  Infección por Vibrio 
-              p.mt-4 El género Vibrio incluye bacterias patógenas para los seres humanos, comúnmente transmitidas a través de la ingestión de alimentos marinos. Vibrio parahaemolyticus causa gastroenteritis febril y diarrea con sangre, y Vibrio Cholerae es responsable del cólera. 
+              p.mt-4 El género Vibrio incluye bacterias patógenas para los seres humanos, comúnmente transmitidas a través de la ingestión de alimentos marinos. Vibrio Parahaemolyticus causa gastroenteritis febril y diarrea con sangre, y Vibrio Cholerae es responsable del cólera. 
             .col-lg-5(style="place-self:center;")
               figure.m-auto.col-8.col-md-6.col-lg-12
                 img(src='@/assets/curso/tema4/4.png')
@@ -67,7 +67,7 @@
             h3.mb-0.pe-5 Bacillaceae 
         
     .cont_4_1
-      p(data-aos="fade-right") Bacillaceae es un grupo de bacterias que incluye especies patógenas para el ser humano, como Bacillus cereus, responsable de causar #[strong enteritis, diarrea y vómito]. Esta bacteria tiene un periodo de incubación de entre #[strong 8 y 16 horas] en el ser humano y puede llegar a este a través de productos derivados de #[strong la carne de pollo, cereales, harinas] e incluso algunas frutas como el durazno y la piña. Es común encontrar esta bacteria en los suelos y la tierra.  
+      p(data-aos="fade-right") Bacillaceae es un grupo de bacterias que incluye especies patógenas para el ser humano, como Bacillus Cereus, responsable de causar #[strong enteritis, diarrea y vómito]. Esta bacteria tiene un periodo de incubación de entre #[strong 8 y 16 horas] en el ser humano y puede llegar a este a través de productos derivados de #[strong la carne de pollo, cereales, harinas] e incluso algunas frutas como el durazno y la piña. Es común encontrar esta bacteria en los suelos y la tierra.  
 
       .col-xl-10.m-auto.mt-4
         .p-4(style="background-color:#DBECEB;border-radius:8px;" data-aos="fade-up")
@@ -76,7 +76,7 @@
               figure.m-auto.col-4.col-md-12
                 img(src="@/assets/curso/tema4/7.png")
             .col-md(style="place-self:center;")
-              p.mb-0 El proceso de infección se basa en la producción de toxinas preformadas por la bacteria. Cuando se ingieren pequeñas cantidades de la bacteria B. cereus, no se genera ningún perjuicio para la persona. Sin embargo, cuando se trata de cantidades elevadas, puede generarse una intoxicación. 
+              p.mb-0 El proceso de infección se basa en la producción de toxinas preformadas por la bacteria. Cuando se ingieren pequeñas cantidades de la bacteria B. Cereus, no se genera ningún perjuicio para la persona. Sin embargo, cuando se trata de cantidades elevadas, puede generarse una intoxicación. 
       
       p.mt-4.fw-bold(data-aos="fade-right") Esta bacteria crea dos tipos de intoxicaciones: 
 
@@ -103,7 +103,7 @@
           .col.ps-2(style="place-self:center;")
             h3.mb-0.pe-5 Botulismo 
       
-      p(data-aos="fade-left") El botulismo es una enfermedad infecciosa causada por la bacteria Clostridium botulinum. Esta bacteria se encuentra generalmente en la tierra y produce una toxina conocida como botulínica, que es el elemento causal de la enfermedad. La bacteria C. botulinum puede desarrollarse en ambientes carentes de oxígeno y en niveles de pH altos. Puede crecer en conservas de alimentos que no reciben un tratamiento térmico adecuado o que están en mal estado. 
+      p(data-aos="fade-left") El botulismo es una enfermedad infecciosa causada por la bacteria Clostridium Botulinum. Esta bacteria se encuentra generalmente en la tierra y produce una toxina conocida como botulínica, que es el elemento causal de la enfermedad. La bacteria C. Botulinum puede desarrollarse en ambientes carentes de oxígeno y en niveles de pH altos. Puede crecer en conservas de alimentos que no reciben un tratamiento térmico adecuado o que están en mal estado. 
       p.fw-bold(data-aos="fade-right") El botulismo causa parálisis en los músculos esqueléticos, ocasionando: 
 
     .row.mt-4.justify-content-center
@@ -153,7 +153,7 @@
     .cont_4_1
       .row
         .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
-          p Staphylococcus es un tipo de bacteria que se encuentra con frecuencia en la piel y en las fosas nasales de los animales y de las personas. La especie más reconocida es Staphylococcus aureus. Se estima que un tercio de la población mundial alberga esta bacteria, pero no necesariamente presenta una infección. La contaminación de los alimentos con esta bacteria se da por el mal manejo y manipulación, sumado a la falta de sanidad e higiene. 
+          p Staphylococcus es un tipo de bacteria que se encuentra con frecuencia en la piel y en las fosas nasales de los animales y de las personas. La especie más reconocida es Staphylococcus Aureus. Se estima que un tercio de la población mundial alberga esta bacteria, pero no necesariamente presenta una infección. La contaminación de los alimentos con esta bacteria se da por el mal manejo y manipulación, sumado a la falta de sanidad e higiene. 
           p.fw-bold Una infección por Staphylococcus puede producir una gran variedad de enfermedades, desde infecciones de la piel y las mucosas hasta enfermedades más graves: 
         .col-lg-4(data-aos="fade-left")
           figure.m-auto.col-9.col-md-7.col-lg-12

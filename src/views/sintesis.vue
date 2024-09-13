@@ -7,7 +7,7 @@
     .row.justify-content-center.pt-4(style="background-color:#FBF9F7;border-radius:20px;")
       .col-lg-10.mb-5(data-aos="zoom-in-up")
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/sintesis.svg", alt="Síntesis sobre las ETAS (Enfermedades Transmitidas por los Alimentos) que presenta las causas (microorganismos patógenos, toxinas), clasificación (infecciosas, tóxicas, tóxico-infecciosas) y medidas de prevención (higiene, manipulación segura, prácticas seguras).")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
