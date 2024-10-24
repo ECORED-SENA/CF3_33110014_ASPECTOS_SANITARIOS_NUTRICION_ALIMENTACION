@@ -131,8 +131,7 @@ export default {
       referencia:
         'González Flores, T. (2006). Enfermedades transmitidas por alimentos y PCR: prevención y diagnóstico: ( ed.). Red Salud Pública de México.  ',
       tipo: 'Artículo',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/22197  ',
+      link: '',
     },
     {
       tema: 'Clasificación de los microorganismos y agentes patógenos ',
@@ -146,8 +145,7 @@ export default {
       referencia:
         'Álvarez, A. R. (2006).<em>Los protozoos. Características generales y su rol como agentes patógenos. Ciencia veterinaria</em>, Vol. 8, 2006:( ed.). Red Universidad Nacional de La Pampa.',
       tipo: 'Libro',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/20629  ',
+      link: '',
     },
     {
       tema: 'Enfermedades de transmisión alimentaria (ETAS) ',
@@ -295,6 +293,11 @@ export default {
         {
           nombre: 'Luis Jesús Pérez Madariaga ',
           cargo: 'Desarrollador <i>full stack</i>',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Cristhian Giovanni Gordillo Segura',
+          cargo: 'Intérprete lenguaje de señas',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {

@@ -45,7 +45,7 @@
       .row
         .col(style="place-self:center;" data-aos="fade-right")
           p Las bacterias son responsables de cumplir funciones vitales en todos los ecosistemas del planeta. Puede decirse incluso que si estas no existiesen, no habría vida en el planeta. 
-          p.mb-0 En lo referente al cuerpo humano, se sabe que las bacterias son responsables de causar algunas enfermedades, pero la mayoría de las veces tienen un efecto benéfico. Normalmente no se tiene conciencia de que en el interior del cuerpo hay una gran cantidad de bacterias que todo el tiempo desarrollan funciones vitales para la vida. Entre estas funciones se encuentran: 
+          p.mb-0 En lo referente al cuerpo humano, se sabe que las bacterias son responsables de causar algunas enfermedades, pero la mayoría de las veces tienen un efecto benéfico. Normalmente, no se tiene conciencia de que en el interior del cuerpo hay una gran cantidad de bacterias que todo el tiempo desarrollan funciones vitales para la vida. Entre estas funciones se encuentran: 
         .col-auto.d-none.d-md-block(style="place-self:center;" data-aos="fade-left")
           figure
             img(src="@/assets/curso/tema2/3.svg")
